@@ -128,3 +128,5 @@ def assume(account):
         for k, v in config_data.items():
             config_parser.set(profile, k, v)
         config_parser.write(CONFIG_PATH.open(mode='w'))
+
+        print(f'\nuse this profile: --profile {account}')

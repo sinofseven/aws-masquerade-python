@@ -10,5 +10,3 @@ ipython = "*"
 boto3 = "==1.9.143"
 click = "==7.0"
 
-[requires]
-python_version = "3.6.8"
